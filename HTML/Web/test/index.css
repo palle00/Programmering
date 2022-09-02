@@ -1,0 +1,61 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+section
+{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+   
+.ButtonStyleOne
+{
+  
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: red;
+
+    border-radius: 0.6em;
+    border-color: red;
+    border-style: solid;
+    border-width: 3px;
+
+    position: relative;
+    background-color: none;
+
+    padding: 10px;
+    width: 125px;
+    height: 35px;
+
+
+}
+.ButtonStyleOne:hover
+{
+  color: darkred;
+  border-color: darkred;
+}
+
+.container
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=League+Spartan:wght@400&family=Oswald:wght@200&display=swap" rel="stylesheet">    <script src="index.js"></script>
+    <script src="index.js"></script>
+    <script src="contact.js"></script>
+
+    <title>Contact - Implex</title>
+</head>
+<body>
+    
+    <section class="main">
+        <div class="parent">
+         
+        <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+        <div class="parent-main">
+
+            <div class="div1-main"> 
+                <nav class="navbar">
+                    <span class="Open-slide-bar" >
+                        <button class="slide-button" href="#" onclick="OpenSlideBar()">
+                        <svg width="40" height="30" id="open">
+                            <path d="M0, 5 40,5" stroke="#fff"
+                            stroke-width="7"/>
+                            <path d="M0, 14 40,14" stroke="#fff"
+                            stroke-width="7"/>
+                            <path d="M0, 23 40,23" stroke="#fff"
+                            stroke-width="7"/>
+                        </svg>
+                        </button>
+                    </span>
+                    <div class="button-container">
+                        <a class="ButtonStyleOne" href="index.html">home</a>
+                    </div>
+                </nav>
+               
+                <div id="side-menu" class="side-menu">
+                    <button href="" class="btn-close" onclick="CloseSlideBar()">&times;</button>
+                    <a href="index.html" >Home</a>
+                    <a href="index.html#about" >About</a>
+                    <a href="index.html#projects" >Projects</a>
+                    <a href="contact.html" >Contact</a>
+                    <a href="gallery.html" >Gallery</a>
+                    <a href="/guide/typography.html" >Design guide</a>
+                </div>
+
+               
+            </div>
+                
+        </div>
+
+
+        <div class="div2-main">
+
+            <div class="shape">
+                <div class="contact-form">
+
+                    <div class="contact-info">
+
+                        <div class="text">
+                            <h1>Contact info</h1>
+
+                            <p><img src="img/telephone-call.png" alt="phone" class="leading-icon"/> +45 xx-xx-xx-xx</p>
+                            <p><img src="img/email.png" alt="mail" class="leading-icon"/>contact@mail.com</p>
+                            <p><img src="img/location.png" alt="location" class="leading-icon"/>Upstairs, Downstairs- 165 Eaton Place, 
+                                <br>
+                                London
+                            </p>
+                        </div>
+                            <div class="logo-container">
+                                <a href="https://www.facebook.com" ><img src="img/facebook-rød.png" alt="facebooklogo" class="logos" /></a>
+                                <a href="https://www.instagram.com"><img src="img/instagram-rød.png" alt="instagramlogo" class="logos" /></a>
+                                <a href="https://www.twitter.com"><img src="img/twitter-rød.png" alt="twitterlogo" class="logos" /></a>
+                            </div>
+                    </div>
+
+                    <div class="form">
+                        <form class="contact-form-temp">
+                            <ol>
+                                <input required name ="Name" id="Name" type="text" placeholder="Enter your name*">
+                            
+                             <br>
+                                <input required name ="Email" id="Email" type="email" placeholder="Enter a valid email address*"> 
+                             <br>
+                                <textarea required name ="Message" id="message" cols="30" rows="5" maxlength="600" placeholder="Enter your message. Maxmimum of 600 characters"></textarea>
+                                <p class="p" id="count"></p>
+                                <button type="submit" class="Send">Send</button>
+                                
+                            </ol>
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-form-phone">
+
+                    <div class="contact-info-phone">
+                        
+                        <div class="text">
+                            <h1>Contact info</h1>
+
+                            <p><img src="img/telephone-call.png" alt="phone" class="leading-icon"/> +45 xx-xx-xx-xx</p>
+                            <p><img src="img/email.png" alt="mail" class="leading-icon"/>contact@mail.com</p>
+                            <p><img src="img/location.png" alt="location" class="leading-icon"/>Upstairs, Downstairs- 165 Eaton Place, 
+                                <br>
+                                London
+                            </p>
+                            <div class="logo-container">
+                                <a href="https://www.facebook.com" ><img src="img/facebook-rød.png" alt="facebooklogo" class="logos" /></a>
+                                <a href="https://www.instagram.com"><img src="img/instagram-rød.png" alt="instagramlogo" class="logos" /></a>
+                                <a href="https://www.twitter.com"><img src="img/twitter-rød.png" alt="twitterlogo" class="logos" /></a>
+                            </div>
+                        </div>
+
+                               
+                             
+                           
+                    </div>
+
+                    <div class="form-phone">
+                        <form class="contact-form-temp-phone">
+                            <ol>
+                                <input required name ="Name" id="Name" type="text" placeholder="Enter your name">
+                            
+                             <br>
+                                <input required name ="Email" id="Email" type="email" placeholder="Enter a valid email address"> 
+                             <br>
+                                <textarea required name ="Message" id="Message" cols="30" rows="5" maxlength="600" placeholder="Enter your message"></textarea>
+                                <button type="submit" class="Send">Send</button>
+                            </ol>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+          
+        </div> 
+
+        
+
+      
+    </section>
+
+
+    </div>
+</body>
+</html>

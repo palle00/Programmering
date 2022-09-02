@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="taxi.css" rel="stylesheet">
+
+    <title>Taxi tur</title>
+
+</head>
+<body>
+    
+    <section>
+        <div class="front">
+            <div class="front-div1"> 
+                <img class="logo" src="img/loho.png">
+
+          
+            </div>
+            <div class="front-div2">
+                
+            
+            </div>
+
+          <div class="front-div3">
+
+            <div class="title">
+                <h1> Vi bringer dig trygt frem til tiden.
+                 Altid en taxi i nærheden af dig</h1>
+             </div>
+
+             <a href="#beregn" class="button">Beregn pris</a>
+
+             
+        
+            
+          </div>
+        </div>
+
+        
+    
+    </section>
+    
+    <section>
+        <div class="page" id="beregn">
+            <div class="div1">
+                <p class="tur">Du kan bruge vores værktøj til at beregne prisen på din næste taxi tur</p> 
+            </div>
+
+            <div class="div2">
+                <p id="pris"></p>
+            </div>
+
+            <div class="div3">
+                
+                <div class="holder">
+                        
+                    <div class="input">
+                        
+                        <input id="km" type="number" min="0" placeholder="km" title="Hvor lang er din tur?">
+                        <input id="kl" type="time">
+
+                    </div>
+
+                    <button id="append">Udregn pris</button>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <img id="car" src="img/taxi.png" width=100px height=100px>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="taxi.js"></script>
+</body>
+</html>

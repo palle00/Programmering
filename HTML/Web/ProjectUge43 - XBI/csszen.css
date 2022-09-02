@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+/* light : #ECE6E3
+dark yellow:#DFCC78  */
+
+
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato", sans serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+  background-color: #f0f0f0;
+}
+
+header {
+  height: 75vh;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(236, 230, 227, 0.3),
+      rgba(120, 223, 129, 0.8)
+    ),
+    url("img/hero.jpg");
+  background-size: cover;
+  position: relative;
+  display: block;
+}
+
+.logo-box {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+
+.logo {
+  width: 5em;
+  opacity: 0.7;
+}
+.text-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 3em;
+  font-weight: 300;
+}
+div.primary-main {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  margin-top: 2em;
+  font-weight: 100;
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+div.primary-sub {
+  color: aliceblue;
+  font-size: 0.7em;
+  font-weight: 300;
+  animation: moveInRight 37s ease-out;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display: inline-block;
+
+  border-radius: 2em;
+  font-size: 0.7em;
+  position: relative;
+  border: none;
+  background-color: #f0f0f0;
+  color: #777;
+  font-weight: 700;
+
+  width: 200px;
+
+  transition: width 0.5s;
+}
+
+.btn:hover {
+  width: 900px;
+}
+
+.footer-left,
+.footer-distributed {
+  text-align: center;
+}
+.footer-distributed {
+  background-color: aliceblue;
+  box-shadow: 0 1px 1px 0;
+  width: 100%;
+  text-align: left;
+  font: normal 1em sans-serif;
+  padding: 50px 50px;
+}
+.footer-distributed p.footer-links {
+  font-size: 1em;
+  font-weight: 200;
+  color: #777;
+  margin: 0 0 10px;
+  padding: 0px;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  padding: 20px;
+  line-height: 1.8;
+  text-decoration: none;
+}
+.footer-distributed p.footer-links a:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+nav {
+  margin-top: 3em;
+  background-color: #dfcc78;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 700px;
+}
+
+li {
+  display: inline;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 210px;
+  margin: 220px;
+  text-align: end;
+}
+
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(2rem);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

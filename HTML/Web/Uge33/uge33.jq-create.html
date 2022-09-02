@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="append">Append New HTML Element</button>
+        <div class="append"></div>
+
+</body>
+
+
+    <script src="
+    https://code.jquery.com/jquery-3.5.1.min.js">
+    </script>
+  
+
+    <script>
+
+        //create elements
+        $(document).ready(function() {
+  
+            $("button").click(function() {
+                $(".append").append('<div class="added">New HTML element added</div>');
+            });
+        });
+
+
+        //change dom elements
+        $("body").css("background-color", "green"); 
+
+        //event
+        $("div").click(function(){
+            alert("You clicked a div");
+        });
+    </script>
+
+    
+  
+    <style>
+        .added {
+            padding: 20px;
+            margin-top: 20px;
+            background: blue;
+            color: white;
+            display: inline-block;
+        }
+    </style>
+
+
+</head>
+  
+
+  
+</html>

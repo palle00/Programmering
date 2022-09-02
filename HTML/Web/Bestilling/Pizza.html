@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+<form action="Success.html" method="GET">
+<fieldset>
+    <legend>Your Information</legend>
+
+  
+<ul>
+<label for="name">Name:</label>
+<input name ="name" id="name" type="text">
+
+<br>
+
+<label for="Address">Address:</label>
+<input name ="Address" id="Address">
+
+<br>
+
+<label for="Number">Telephone number:</label>
+<input name ="Number" id="Number" type="tel">
+
+<br>
+
+<label for="Email">Email:</label>
+<input name ="Email" id="Email" type="email"> 
+
+<br>
+
+<label for="Instructions">Delivery Instructions:</label>
+
+<br>
+<textarea name ="Instructions" id="Instructions" cols="30" rows="5" maxlength="400" placeholder="No more than 400 characters long."></textarea>
+</ul>
+</fieldset>
+
+
+<h2>Design Your Dream Pizza</h2>
+
+<fieldset>
+<legend>Pizza specs</legend>
+
+<fieldset>
+
+<legend>Crust <i>(Choose one)</i>:</legend>
+
+<ul>
+    <label for="Classic White">Classic White</label>
+    <input name ="Crust" id="Classic White" type="radio"> 
+<br>
+<label for="Multigrain">Multigrain</label>
+    <input name ="Crust" id="Multigrain" type="radio"> 
+<br>
+    <label for="Cheese">Cheese-stuffed crust</label>
+    <input name ="Crust" id="Cheese" type="radio"> 
+<br>
+    <label for="NoGluten">Gluten-free</label>
+    <input name ="Crust" id="NoGluten" type="radio"> 
+</ul>
+
+</fieldset>
+
+
+
+<fieldset>
+
+    <legend>Toppings <i>(Choose as many as you want)</i>:</legend>
+
+
+    <ul>
+        <label for="RedSauce">Red saucee</label>
+        <input name ="Topping" id="RedSauce" type="checkbox"> 
+    <br>
+    <label for="WhiteSauce">White Sauce</label>
+        <input name ="Topping" id="WhiteSauce" type="checkbox"> 
+    <br>
+        <label for="Mozzarella">Mozzarella Cheese</label>
+        <input name ="Topping" id="Mozzarella" type="checkbox"> 
+    <br>
+        <label for="Pepperoni">Pepperoni</label>
+        <input name ="Topping" id="Pepperoni" type="checkbox"> 
+    <br>
+        <label for="Mushrooms">Mushrooms</label>
+        <input name ="Topping" id="Mushrooms" type="checkbox">
+    <br>
+        <label for="Peppers">Peppers</label>
+        <input name ="Topping" id="Peppers" type="checkbox">
+    <br>
+        <label for="Anchovies">Anchovies</label>
+        <input name ="Topping" id="Anchovies" type="checkbox">
+    </ul>
+
+
+
+</fieldset>
+
+<fieldset>
+<legend>Number</legend>
+
+<label for="HowMany">How Many Pizzas:</label>
+<input name ="HowMany" id="HowMany" type="number" min="1" max="10"> 
+
+</fieldset>
+</fieldset>
+
+<button type="submit">Bring me a pizza!</button>
+<button onClick="window.location.reload();">Reset</button>
+</form>
+
+
+</body>
+</html>

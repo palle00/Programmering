@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+
+
+<input type="number" id="size" value="Rectangel size">
+<button onclick="calc()">Calc area</button>
+<p id="rec"></p>
+
+</body>
+
+
+<script>
+
+//js class
+class Triangle {
+  constructor(side) {
+    this.side = side;
+  }
+  // Getter
+  get area() {
+    return this.calcArea();
+  }
+  // Method
+  calcArea() {
+    return Math.sqrt(3)/4*Math.pow(this.side, 2);
+  }
+}
+
+function calc()
+{
+    let size = document.getElementById("size").value;
+    const rectangle = new Triangle(size);
+    document.getElementById("rec").innerHTML = rectangle.area; 
+}
+
+
+</script>
+
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: rgb(256,180,50) url(klovn.png) no-repeat fixed left center;
+    height: 1000px;
+}
+h1 {color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 4px violet;}
+    
+h2 {color: red;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: Georgia, serif;
+    border: 2px solid red;
+    width: 200px;
+    margin: 0 auto;} 
+p { color: green;
+    font-size: 80%;
+    background: rgb(220,220,220);
+    border-width: 1px 10px 5px 2px;
+    border-style: dashed solid groove dotted;
+    border-color: red yellow aqua blue;
+    width: 400px;
+    margin: 20px auto;
+    padding: 5px;}
+a {text-decoration: none;} 
+h1 a {color: blue;}

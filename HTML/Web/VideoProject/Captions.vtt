@@ -1,0 +1,36 @@
+WEBVTT
+00:00.000 --> 00:01.000
+(Happy Music)
+
+00:01.000 --> 00:12.000
+I denne informations video vil du blive introduceret til html tagsne; fildset, legend, label og input
+
+00:20.000 --> 00:25.000
+Fieldset bruges til at gruppere et sæt af elementer og pakke dem ind i en kasse
+
+00:25.000 --> 00:30.000
+Denne kasse kan blive navngivet ved hjælp af legend tag
+
+00:55.000 --> 01:03.000
+For at skabe et field hvor brugeren kan interagere skal der først laves et label samt input field   
+
+01:11.000 --> 01:21.000
+label field bruges som en visuel guide til brugeren, label field er en kort tekst der hænger sammen med et input field 
+
+01:42.000 --> 01:47.000
+Input field er det field hvor brugeren kan skrive sine oplysninger i. 
+
+01:47.000 --> 01:53.000
+Et input field kan være mange ting some en knap eller et text område
+
+02:20.000 --> 02:26.000
+For at definere hvilken type der skal bruges så sætter vi type til at være “text”
+
+02:26.000 --> 02:32.000
+For at sikre os at input field hænger sammen med label så giver vi input et “id”
+
+02:32.000 --> 02:35.000
+Dette id skal være det samme som “for” i label.
+
+02:35.000 --> 02:42.000
+Vi kan yderlig give input field et navn så den nemmere kan findes senere

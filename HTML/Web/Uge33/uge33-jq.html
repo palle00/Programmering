@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<p>Hello</p>
+
+
+<input>
+
+<div>
+    <p>Hello</p>
+    <p>Hello</p>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script>
+//https://www.w3schools.com/jquery/jquery_ref_selectors.asp
+
+	$(document).ready(function() {  
+ $("p").css("background-color", "pink");  
+ $(":input").css("background-color", "gray"); 
+ $("div > p").css("background-color", "blue"); 
+ });  
+
+</script>
+
+</html>

@@ -1,0 +1,18 @@
+body {background-color:gray}
+
+
+li.a {color: orangered}
+
+li.ab {list-style-type: upper-alpha;
+color: orangered;}
+
+
+li.b{color:turquoise}
+li.ba {list-style-type: upper-alpha;
+color: turquoise;}
+
+
+li.c{color:red}
+li.ca {list-style-type: upper-alpha;
+color: red;}
+

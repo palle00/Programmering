@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS grid</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      body {
+        background-color: #f0f5f5;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 15vw 15vw auto 15vw 15vw;
+        grid-template-rows: repeat(8, 11vh);
+        grid-gap: 5px;
+        background-color: #e0ebeb;
+        padding: 10px;
+      }
+
+      .common {
+        border: 2px dotted black;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .one {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        background-color: #d1e0e0;
+      }
+
+      .two {
+        grid-column: 2/3;
+        grid-row: 1/6;
+        background-color: #c2d6d6;
+      }
+
+      .three {
+        grid-column: 3/4;
+        grid-row: 2/7;
+        background-color: #b3cccc;
+        border-radius: 30px;
+      }
+
+      .four {
+        grid-column: 3/5;
+        grid-row: 1/2;
+        background-color: #a3c2c2;
+      }
+
+      .five {
+        grid-column: 5/6;
+        grid-row: 1/2;
+        background-color: #94b8b8;
+      }
+
+      .six {
+        grid-column: 1/2;
+        grid-row: 3/9;
+        background-color: #85adad;
+      }
+
+      .seven {
+        grid-column: 2/3;
+        grid-row: 6/9;
+        background-color: #75a3a3;
+      }
+
+      .eight {
+        grid-column: 3/4;
+        grid-row: 7/9;
+        background-color:#669999;
+      }
+
+      .nine {
+        grid-column: 4/6;
+        grid-row: 2/5;
+        background-color: #5c8a8a;
+      }
+
+      .ten {
+        grid-column: 4/6;
+        grid-row: 5/9;
+        background-color: #527a7a;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="common one">
+        Indhold i område 1
+      </div>
+      <div class="common two">
+        Indhold i område 2
+      </div>
+      <div class="common three">
+        Indhold i område 3
+      </div>
+      <div class="common four">
+        Indhold i område 4
+      </div>
+      <div class="five">
+        Indhold i område 5
+      </div>
+      <div class="common six">
+        Indhold i område 6
+      </div>
+      <div class="common seven">
+        Indhold i område 7
+      </div>
+      <div class="common eight">
+        Indhold i område 8
+      </div>
+      <div class="common nine">
+        Indhold i område 9
+      </div>
+      <div class="common ten">
+        Indhold i område 10
+      </div>
+    </div>
+  </body>
+</html>
